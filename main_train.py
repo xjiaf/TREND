@@ -70,8 +70,8 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--file_path', type=str, default='./data/cite/emb_edges.pt')
-    parser.add_argument('--node_feature_path', type=str, default='./data/cite/sorted_emb_feat.pt')
+    parser.add_argument('--file_path', type=str, default='./data/emb_edges.pt')
+    parser.add_argument('--node_feature_path', type=str, default='./data/sorted_emb_feat.pt')
     parser.add_argument('--neg_size', type=int, default=1)
     parser.add_argument('--hist_len', type=int, default=10)
     parser.add_argument('--directed', type=bool, default=False)
